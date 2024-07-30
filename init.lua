@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/omeradams/testui/main/init%20(1).lua'))();
+local Library = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/omeradams/testui/main/init.lua'))();
 local Main = Library:Init(game.Players.Name, game.Players.LocalPlayer.UserId).UI
 
 local services = setmetatable({}, {
